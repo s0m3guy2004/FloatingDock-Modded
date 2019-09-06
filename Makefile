@@ -5,9 +5,9 @@ PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = FloatingDock
-FloatingDock_FILES = Tweak.xm
-FloatingDock_FRAMEWORKS = UIKit CoreGraphics
+TWEAK_NAME = FloatingDockModded
+FloatingDockModded_FILES = Tweak.xm
+FloatingDockModded_FRAMEWORKS = UIKit CoreGraphics
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
