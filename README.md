@@ -1,5 +1,5 @@
 # FloatingDockModded
-iPhone X dock for older devices, slightly edited by me to change some visuals. Only tested on iPhone 5S on iOS 12.4, isn't compatible with A12
+iPhone X dock for older devices, I've only tested on iPhone 5S on iOS 12.4, isn't compatible with A12.
 
 This tweak is a fork from DGh0st's [FloatingDock](https://github.com/DGh0st/FloatingDock).
 
