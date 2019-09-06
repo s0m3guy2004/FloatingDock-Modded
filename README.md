@@ -4,3 +4,5 @@ iPhone X dock for older devices, slightly edited by me to change some visuals. O
 This tweak is a fork from DGh0st's [FloatingDock](https://github.com/DGh0st/FloatingDock).
 
 You can download the .deb [here](https://github.com/s0m3guy2004/FloatingDockModded/releases).
+# Screenshots
+<img src="https://github.com/s0m3guy2004/FloatingDockModded/blob/master/Resources/defaultdock.png" />
