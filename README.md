@@ -12,3 +12,7 @@ Default
 Modded
 
 <img src="https://github.com/s0m3guy2004/FloatingDockModded/blob/master/Resources/editeddock.png" />
+
+###TODO
+
+Scale Homescreen icons to position page dots to the middle.
