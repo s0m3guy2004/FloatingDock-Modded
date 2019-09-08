@@ -1,7 +1,7 @@
 Package: com.dgh0st.floatingdockmodded
 Name: FloatingDockModded
 Depends: mobilesubstrate
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: iPhone X dock for older devices but modified by s0m3guy to change some visuals, DGh0st is the author of this tweak.
 Maintainer: s0m3guy <ticothongminh@gmail.com>

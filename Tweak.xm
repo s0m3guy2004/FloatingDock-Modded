@@ -15,6 +15,9 @@
 @interface SBDockView : UIView
 @end
 
+@interface SBIconListPageControl : UIPageControl
+@end
+
 %hook SBDockView
 -(void)layoutSubviews {
 	%orig();
@@ -28,7 +31,7 @@
 		frame.origin.x = 8;
 		frame.origin.y = 11;
 		frame.size.width = self.frame.size.width - 16;
-		frame.size.height = self.frame.size.height - 18;
+		frame.size.height = self.frame.size.height - 19;
 		_backgroundImageView.frame = frame;
 
 		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
@@ -45,17 +48,13 @@
 		frame.origin.x = 8;
 		frame.origin.y = 11;
 		frame.size.width = self.frame.size.width - 16;
-		frame.size.height = self.frame.size.height - 18;
+		frame.size.height = self.frame.size.height - 19;
 		_backgroundView.frame = frame;
 	}
 }
 %end
 
 %hook SBDockIconListView
-+(CGFloat)defaultHeight {
-	return %orig() + 0;
-}
-
 -(void)layoutSubviews {
 	%orig();
 
@@ -65,5 +64,11 @@
 		frame.origin.x = (iconSize.height - iconSize.width) / 2;
 		self.frame = frame;
 	}
+}
+%end
+
+%hook SBIconListPageControl
+-(double)defaultHeight {
+	return %orig() - 5;
 }
 %end
